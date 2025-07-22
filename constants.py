@@ -7,3 +7,11 @@ ASTEROID_SPAWN_RATE = 0.8  # seconds
 ASTEROID_MAX_RADIUS = ASTEROID_MIN_RADIUS * ASTEROID_KINDS
 
 PLAYER_RADIUS = 20
+PLAYER_TURN_SPEED = 300
+PLAYER_SPEED = 200
+
+ASTEROID_SPEED = 150
+ASTEROID_WIDTH = 6
+ASTEROID_RADIUS = 40
+#2:50 cried to sleep
+#pick up from kider care alarm went off at 340 and girl woke up crying
