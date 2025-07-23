@@ -26,7 +26,19 @@ class CircleShape(sprite.Sprite):
         range = Vector2.distance_to(other.position, self.position)
 
         if range < (self.radius + other.radius):
-            print(f"Game Over!")
             result = True
 
         return result
+
+    def collision_check(self, others):
+        collision = False
+        if self.collision(others):
+            collision = others
+        
+        return collision
+
+    def boundary(self):
+        pass
+
+    def die(self):
+        self.kill()
